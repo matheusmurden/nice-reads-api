@@ -1,0 +1,58 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "lib": [
+      "es2022"
+    ],
+    "allowJs": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "types": [
+      "node"
+    ],
+    "rootDirs": [
+      "src"
+    ],
+    "outDir": "dist",
+    "removeComments": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "config": [
+        "config"
+      ],
+      "interfaces": [
+        "interfaces"
+      ],
+      "services": [
+        "services"
+      ],
+      "entities": [
+        "entities"
+      ],
+      "resolvers": [
+        "resolvers"
+      ]
+    },
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
